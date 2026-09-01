@@ -4,9 +4,10 @@ a=random.randint(1,10)
 attempt=0
 while True:
    b=int(input("enter a number:"))
+   attempt+=1
    if a>b:
       print("too low")
    elif b>a:
       print("too high")
    else:
-      print("correct answer")
+      print("correct answer,you took {attempt} attempts to win ")
