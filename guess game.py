@@ -1,4 +1,5 @@
 import random
+print(=*100)
 print("welcome to guessing game")
 a=random.randint(1,20)
 attempt=0
@@ -11,3 +12,5 @@ while True:
       print("too high")
    else:
       print("correct answer,you took {attempt} attempts to win ")
+print(=*100)
+
