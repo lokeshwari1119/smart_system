@@ -11,5 +11,7 @@ while True:
       print("too high")
    else:
       print("correct answer,you took {attempt} attempts to win ")
+   break
+   
 
 
