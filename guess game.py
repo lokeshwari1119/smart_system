@@ -1,7 +1,7 @@
 import random
 print("welcome to guessing game")
 a=random.randint(1,20)
-attempt=0
+attempt=-5
 while True:
    b=int(input("enter a number:"))
    attempt+=1
