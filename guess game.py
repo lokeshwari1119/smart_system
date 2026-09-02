@@ -10,5 +10,5 @@ while True:
    elif b>a:
       print("too high...")
    else:
-      print("correct answeryou took", attempt ,"attempts to win......")
+      print("correct answer you took", attempt ,"attempts to win......")
       break
