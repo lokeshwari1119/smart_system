@@ -6,12 +6,9 @@ while True:
    b=int(input("enter a number:"))
    attempt+=1
    if a>b:
-      print("too low")
+      print("too low......")
    elif b>a:
-      print("too high")
+      print("too high...")
    else:
-      print("correct answer,you took {attempt} attempts to win ")
-   break
-   
-
-
+      print("correct answeryou took", attempt ,"attempts to win......")
+      break
